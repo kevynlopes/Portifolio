@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family= Italiana & display = swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo h1 {
+  font-family: "Inter";
+}
+
+.logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 116px;
+
+  color: #ffffff;
+
+  transform: rotate(-180deg);
+}
+
+.barra {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 50px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+
+.links a {
+  font-family: "GFS Neohellenic", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 25px;
+}
+
+.detalhe img {
+  width: 50px;
+  height: 50px;
+}
+
+.lobo {
+  opacity: 20%;
+  width: 100%;
+  height: 100vh;
+}
+
+.back {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.ola {
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+}
+
+.nome {
+  font-size: 80px;
+  font-family: "Gidugu", sans-serif;
+}
+
+.dev {
+  font-family: "GFS Neohellenic", sans-serif;
+}
+
+.botoes {
+  padding: 50px;
+}
+
+.dev {
+  font-size: 40px;
+  max-width: 50vw;
+}
+
+.botoes a {
+  padding: 25px;
+  border-radius: 4px;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  width: 523px;
+  height: 377px;
+  background-color: black;
+}
+
+.tudo {
+  display: flex;
+}
